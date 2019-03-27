@@ -155,9 +155,6 @@ h3{
 .contact .fa{
         font-size: 40px;
     }
-.aboutme .fa:hover{
-    color: rgba(108,219,228,0.5);
-}
 .aboutme .middlesex{
     border-bottom: 1px solid rgba(108,219,228,0.3);
 }
@@ -187,13 +184,9 @@ h3{
     -webkit-transform: scale(1.2) translateY(20px); /* Safari */
     transition: 0.5s linear;
 }
-.contact a:hover .fa{
-    transform: rotateY(360deg) scale(1.4);
-    transition: 0.3s linear;
-}
 
-footer p{
+footer p,
+.contact a:hover .fa{
     color: rgba(108,219,228,0.5);
 }
-
 
