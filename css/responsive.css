@@ -1,0 +1,99 @@
+
+@media(min-width:576px){
+    .home article{
+        padding: 100px 0 40px;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.6rem;  
+    }
+    .resume .link a{
+        font-size: medium;
+    }
+
+
+
+
+}
+
+@media(min-width:768px){
+    .home article{
+        padding: 120px 0 50px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 2rem;  
+    }
+    .reel video{
+        width: 640px;
+        height: 480px;
+    }
+
+    .reel .container article{
+        padding-bottom: 120px;
+    }
+    .aboutme .middlesex,
+    .aboutme .maya,
+    .aboutme .shotgun{
+        border-right: 1px solid rgba(108,219,228,0.3);
+    }
+    .aboutme .middlesex{
+        border-bottom: none;
+    }
+    .education{
+        border-bottom: 1px solid rgba(108,219,228,0.3);
+    }
+
+
+}
+
+
+
+
+@media(min-width:992px){
+    .home article{
+        padding: 150px 0 150px;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    .reel video{
+        width: 704px;
+        height: 528px;
+    }
+    .aboutme .fa,
+    .resume .experience .fa,
+    .contact .fa{
+        font-size: xx-large;
+    }
+    .resume .link a{
+        font-size: large;
+    }
+    .resume .projects img{
+        max-width: 100%;
+    }
+
+
+}
+
+@media(min-width:1200px){
+    .reel video{
+        width: 1024px;
+        height: 768px;
+    }
+
+
+}
