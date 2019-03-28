@@ -173,6 +173,7 @@ h3{
     max-width: 60%;
 }
 .resume .projects figure{
+    position: relative;
     border: 1px solid rgba(108,219,228,0.3);
     overflow: hidden;
     height: 90%;
@@ -182,7 +183,25 @@ h3{
     transform: scale(1.2) translateY(20px);
     -ms-transform: scale(1.2) translateY(20px); /* IE 9 */
     -webkit-transform: scale(1.2) translateY(20px); /* Safari */
-    transition: 0.5s linear;
+    transition: 0.4s linear;
+}
+.resume .hover{
+    position: absolute;
+    height: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.4s linear;
+    background: rgba(0,0,0,0.4) no-repeat center;
+}
+.resume .hover,
+.resume .hover .fa{
+    visibility: hidden;
+}
+.resume .projects figure:hover .hover,
+.resume .projects figure:hover .hover .fa{
+    height: 100%;
+    visibility: visible;
 }
 
 footer p,
